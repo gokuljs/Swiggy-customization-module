@@ -1,6 +1,9 @@
 import React from 'react';
+import './place.styles.scss';
  const Place=()=>(
-     <div>helasa</div>
+     <div className="location">
+         <p className="location-content">Home / Bangalore / Ashok Nagar / Subway</p>
+     </div>
  )
 
  export default Place;
