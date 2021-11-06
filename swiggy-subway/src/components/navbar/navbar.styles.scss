@@ -31,7 +31,56 @@ a {
     align-items: center;
     padding: 1rem 1.3rem;
 }
+.nav-left{
+    display: flex;
+    flex-direction: row;
+}
 
+.left-1{
+    flex:1;
+}
+.left-2{
+    display: block;
+    padding:0rem;
+    // background-color: #101010;
+    padding-top: 3.5rem;
+    text-transform: capitalize;
+    flex:4;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    line-height: 0.12rem;
+    width:12.5rem;
+    padding-left: 2rem;
+    padding-right:1rem;
+    display: block;
+    min-width: 3rem;
+    // text-overflow: ellipsis;
+    // overflow: hidden;
+    // white-space: nowrap;
+    color: #3d4152;
+    font-weight: 700;
+    &:hover{
+        color: orange;
+        transition:0.5s;
+    }
+}
+.left-3{
+    display: block;
+    padding: 1rem;
+    color:#686b78;
+    align-items: center;
+    // background-color: #101010;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width:14rem;
+    cursor: pointer;
+    padding-top: 2.5rem;
+    font-size: 1.4rem;
+
+
+    box-sizing: border-box;
+}
 
 .hamburger {
     display: none;
@@ -47,6 +96,12 @@ a {
     background-color: #101010;
 }
 
+// .search-info{
+    // float: left;
+    // position: relative;
+    
+    
+// }
 
 .nav-menu {
     display: flex;
@@ -72,22 +127,18 @@ a {
     font-weight: 400;
     color: #475569;
     text-decoration: none;
-    &:hover{
-        color: orange;
-    }
+    
 }
+
 .percent{
     height:2rem;
     padding:0.5rem;
 }
-a:hover{
-    color: orange;
-}
-
-.nav-link:hover{
-    color: #482ff7;
-}
 
 .brand{
     height:5.5rem;
+}
+#nav-test:hover{
+    text-decoration: none;
+    color: orange;
 }

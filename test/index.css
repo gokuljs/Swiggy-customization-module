@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Poppins:wght@100&display=swap');
+
+.menu-section{
+    margin:0 auto;
+    margin-top: 5rem;
+    width:36rem;
+    height: 10rem;
+    border-bottom:1px solid rgb(209, 202, 202);
+    padding: 1rem;
+    display: flex;
+    
+    
+    
+}
+h3{
+    color:#3e4152;
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-weight: 1000;
+}
+.menu-content{
+    flex:3;
+}
+.menu-name{
+    color:rgba(40, 44, 63, 0.45);
+}
+.image{
+    width:1.5rem;
+    height:1.5rem;
+}
+.menu-image{
+    flex:1;
+    /* display: block; */
+    padding:1rem;
+    /* background-color: black; */
+    position: relative;
+}
+
+.image-2{
+    display: block;
+    margin: 0 auto;
+    width:7rem;
+    height:7rem;
+    border-radius: 1rem;
+}
+.add{
+    width:5rem;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    right:2.7rem;
+    bottom:1.5rem;
+    height:2rem;
+    background-color: #fff;
+    border:1px solid rgb(206, 198, 198)
+}

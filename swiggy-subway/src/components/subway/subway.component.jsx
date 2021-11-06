@@ -18,15 +18,15 @@ const Subway=()=>(
             <div className="row-container">
 
             <div className="row-1">
-                <p><i class="fas fa-star"></i> 4.3</p>
+                <p><i class="fas fa-star test-2"></i> 4.3</p>
                 <p className="row-1-subclass">100+ Ratings</p>
             </div>
             <div className="row-2">
             <p>Unserviceable</p>
-            <p className="row-2-subclass">Check Back Later</p>
+            <p className="row-2-subclass test-2">Check Back Later</p>
             </div>
             <div className="row-3">
-            <p><i class="fas fa-rupee-sign"></i> 350</p>
+            <p><i class="fas fa-rupee-sign test-2"></i> 350</p>
             <p className="row-3-subclass">cost for two</p>
     
             </div>
@@ -55,7 +55,10 @@ const Subway=()=>(
                 </div>
             </fieldset>
         </div>
+        
     </div>
+
+    
 )
 
 export default Subway;
