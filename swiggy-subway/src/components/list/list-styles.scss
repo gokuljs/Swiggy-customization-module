@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@100&display=swap');
+
+.items{
+    // display: flex;
+    // margin: 1rem;
+    padding: 1rem;
+    display: block;
+    cursor: pointer;
+    color: 282c3f;
+    font-size:1.3rem;
+    font-weight: 400;
+    margin-right:-20rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Poppins', sans-serif;
+    
+}
+.header-1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+p{
+    padding: 0.5rem;
+    &:hover{
+        color: orange;
+        transition: 0.1s;
+    }
+}
+h5{
+    color: orange;
+    padding: 2rem;
+    &:hover{
+        color: orange;
+        transition: 0.1s;
+    }
+}
