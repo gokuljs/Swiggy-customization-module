@@ -1,16 +1,17 @@
 import React from "react";
 import veg from './veg.png';
+import nonveg from './nonveg.png';
 import './menu-list.styles.scss';
 
 
 
 
 const MenuList=props=>(
-        <div>
+        <div className="menu-header">
         {
             props.items.map(item=>(
                 <div className="menulist">
-
+                    
             
                 {/* <h3> Recommended </h3> */}
                 <div className="menulist-1">

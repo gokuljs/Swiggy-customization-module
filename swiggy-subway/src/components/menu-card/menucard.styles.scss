@@ -14,15 +14,23 @@
     }
     &-2{
         flex:2;
-        border:1px solid black;
-        overflow:visible;
+        // border:1px solid black;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 100%;
+
         // text-align: center;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+          
 
     }
     &-3{
         flex:1;
         // border:1px solid black;
-        text-align: center;
+        // text-align: center;
 
     }
 }
