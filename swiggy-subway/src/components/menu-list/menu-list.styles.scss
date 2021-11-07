@@ -1,0 +1,48 @@
+.menulist{
+    width:90%;
+    // height:5rem;
+    border-bottom:1px solid rgb(212, 206, 206);
+    margin: 0 auto ;
+    padding: 2rem;
+    display: flex;
+    padding-top:2rem;
+    padding-bottom:2rem;
+    // overflow: scroll;
+
+    &-1{
+        flex:2;
+    }
+    &-2{
+        flex:1;
+    }
+
+    &-img{
+        width:2rem;
+        height:2rem;
+        margin-bottom: 1rem;
+    }
+    &-header{
+        margin-bottom:1rem;
+        font-size:1.6rem;
+    }
+    &-price{
+        font-size:1.5rem;
+    }
+    &-desc{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color:grey;
+    }
+
+    &-image{
+        width:7rem;
+        height:7rem;
+    }
+}
+
+
+// #rupees{
+//     color: black;
+//     padding: 2rem;
+//     font-size:rem;
+// }

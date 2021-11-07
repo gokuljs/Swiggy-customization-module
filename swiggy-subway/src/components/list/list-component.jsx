@@ -19,9 +19,9 @@ class List extends React.Component{
     render(){
         return(
             <div className="items">
-                <p class="header-1">Recommended</p>
+                <p className="header-1">Recommended</p>
                 {
-                    this.state.menulists.map(list=><p>{list}</p>)
+                    this.state.menulists.map(list=><p className="header-2">{list}</p>)
                 }
             </div>
         )
