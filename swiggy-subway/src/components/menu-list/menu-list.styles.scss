@@ -5,7 +5,7 @@
     margin: 0 auto ;
     padding: 2rem;
     display: flex;
-    padding-top:2rem;
+    // padding-top:rem;
     padding-bottom:2rem;
     // overflow: scroll;
 
@@ -35,9 +35,27 @@
     }
 
     &-image{
-        width:7rem;
-        height:7rem;
+        width:13rem;
+        height:9rem;
+        align-items: center;
+        margin-left:5rem;
     }
+    &-button{
+        width:9rem;
+        height:4rem;
+        margin-left:7rem;
+        position: relative;
+        top:-15px;
+        background-color: #fff;
+        color:green;
+        border: 1px solid rgb(231, 226, 226);
+    }
+}
+
+.menulist-2{
+    // border: 1px solid black;
+    // position: relative;
+
 }
 
 
