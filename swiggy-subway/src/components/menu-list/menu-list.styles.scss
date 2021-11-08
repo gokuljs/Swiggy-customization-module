@@ -1,3 +1,100 @@
+.modal-cart{
+    width: 60rem;
+    height:70vh;
+    margin: 0 auto;
+    margin-top: 15rem;
+    padding: 1rem;
+    background-color:#fff;
+    display: flex;
+    flex-direction: column;
+    &-1{
+        flex:1;
+        -webkit-box-shadow: 0 8px 6px -6px rgb(156, 151, 151);
+        -moz-box-shadow: 0 8px 6px -6px rgb(163, 159, 159);
+             box-shadow: 0 8px 6px -6px rgb(158, 155, 155);
+ 
+
+        // padding-bottom: -2rem;
+
+    }
+    &-2{
+        flex:3;
+        height:3rem;
+        padding-top: 1rem;
+        // border: 1px solid black;
+        // margin-top:1rem;
+        overflow: scroll;
+        overflow-x: hidden;
+        // overflow-y: hidden;
+    }
+    &-3{
+        flex:1;
+    }
+}
+.modal{
+    padding-left: 1rem;
+    &-img{
+        width: 2.5rem;
+        height:2.5rem;
+    }
+    &-header{
+        margin-left: 1rem;
+        padding: 1rem;
+        display: inline;
+        font-size: 2rem;
+        color:#282c3f;
+        text-transform: capitalize;
+        // border: 1px solid black;
+
+    }
+    &-price{
+        margin-left: 3.5rem;
+        padding: 1rem;
+        font-size:1.5rem;
+        border-bottom: 1px dotted grey;
+
+        color:rgb(158, 155, 155);
+    }
+    &-para{
+        padding-left: 3rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        font-size:1.2rem;
+        line-height: 1.9rem;
+        word-spacing: 2px;
+        color:rgb(170, 165, 165);
+    }
+    &-close{
+        display: inline;
+        float: right;
+        background-color: #fff;
+        border:none;
+        color:rgb(182, 178, 178);
+        text-transform: uppercase;
+        font-size:2.5rem
+        
+    }
+    &-radio{
+        padding-top: 1rem;
+    }
+    &-label{
+        font-size: 1.6rem;
+    }
+    &-input{
+        padding-left: 2rem;
+    }
+    &-choice{
+        margin-top: 0.5rem;
+        margin-bottom:0.5rem;
+    }
+    &-subimg{
+        width: 1.5rem;
+        height: 1.5rem;
+    
+        margin-right: 1rem;
+        
+    }
+}
 .menu-header{
     width:100%;
     height:100%;
