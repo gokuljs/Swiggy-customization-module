@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from 'react-modal';
 import veg from './veg.png';
+import nonveg from './nonveg.png';
 import './subway.styles.scss';
 
 
@@ -156,7 +157,44 @@ class SubWay extends React.Component{
                         </ul>
                         </div>
                         <div>
-                        <h3 className="scroll-header">Choice of 1st Sub</h3>
+                        <h3 className="scroll-header">Choice of Preparation</h3>
+                        <ul className="scroll-choice">
+
+                            <li className="scroll-li">
+                            <img src={veg} className="scroll-img"/>
+                            <input onClick={this.choice4} type="radio" value="Plain Bread" id="Plain Bread" name="Choice of preparation"></input>
+                            <label className="scroll-title" onClick={console.log('hello to this world')} for="Plain Bread">Plain Bread</label>
+                            </li>
+
+                            <li className="scroll-li">
+                            <img src={veg} className="scroll-img"/>
+
+                            <input onClick={this.choice4} type="radio" value="Plain Bread With Cheese Slice" id="Plain Bread With Cheese Slice" name="Choice of preparation"></input>
+                            <label className="scroll-title" for="Plain Bread With Cheese Slice">Plain Bread With Cheese Slice</label>
+                            </li>
+                            
+                            <li className="scroll-li">
+                            <img src={veg} className="scroll-img"/>
+
+                            <input onClick={this.choice4} type="radio" value="Toasted Bread" id="Toasted Bread" name="Choice of preparation"></input>
+                            <label className="scroll-title" for="Toasted Bread">Toasted Bread</label>
+                            </li>
+                            <li className="scroll-li">
+                            <img src={veg} className="scroll-img"/>
+
+                            <input onClick={this.choice4} type="radio" value="Toasted Bread With Cheese Slice" id="Toasted Bread With Cheese Slice" name="Choice of preparation"></input>
+                            <label className="scroll-title" for="Toasted Bread With Cheese Slice">Toasted Bread With Cheese Slice</label>
+                            </li>
+                            <li className="scroll-li">
+                            <img src={veg} className="scroll-img"/>
+
+                            <input onClick={this.choice4} type="radio" value="Toasted With Mozzarella Cheese" id="Toasted With Mozzarella Cheese" name="Choice of preparation"></input>
+                            <label className="scroll-title" for="Toasted With Mozzarella Cheese">Toasted With Mozzarella Cheese</label>
+                            </li>
+                            </ul>
+                         </div>
+                         <div>
+                        <h3 className="scroll-header">Choice of 1st Free Cookie</h3>
                         <ul className="scroll-choice">
 
                             <li className="scroll-li">
