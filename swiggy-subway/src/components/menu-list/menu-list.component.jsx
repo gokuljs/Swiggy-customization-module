@@ -48,15 +48,15 @@ const MenuList=(props)=>{
                                 
                                 
                                 <img src={veg} className="modal-subimg"/>
-                                <input className="modal-input" type="radio" id="html" name="fav_language" value="HTML"/>
-                                <label className="modal-label" for="html">Mexican patty</label><br/>
+                                <input className="modal-input" type="radio" id="html1" name="fav_language-1" value="HTML"/>
+                                <label className="modal-label" for="html1">Mexican patty</label><br/>
                                 </div>
                                 <div className="modal-radio">
                                 
                                 
                                 <img src={veg} className="modal-subimg"/>
-                                <input className="modal-input" type="radio" id="html" name="fav_language" value="HTML"/>
-                                <label className="modal-label" for="html">Chatpata Chana</label><br/>
+                                <input className="modal-input" type="radio" id="html1" name="fav_language-1" value="HTML"/>
+                                <label className="modal-label" for="html1">Chatpata Chana</label><br/>
                                 </div>
                             </li>
 
@@ -303,8 +303,16 @@ Cucumber</label><br/>
 
                         </ul>
                     </div>
-                    <div className="modal-cart-3"></div>
-
+                    <div className="modal-cart-3">
+                        <div className="modal-choosen">
+                        <p className="modal-choosen-1">Mexican Patty, Chatpata Chana</p>
+                        <p className="modal-choosen-2">+4 Add on</p>
+                        </div>
+                        <button className="modal-button">
+                        <p className="modal-choosen-1">Total 374.00</p>
+                        <p className="modal-choosen-2">Add item</p>
+                        </button>
+                        </div>
 
                 </div>
                 <div>                              
