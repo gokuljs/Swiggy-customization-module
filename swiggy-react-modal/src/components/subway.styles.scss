@@ -57,6 +57,11 @@ ul{
     border: 1px solid black;
     overflow: scroll;
     overflow-x: hidden;
+    &-img{
+        width: 1rem;
+        height: 1rem;
+        padding-right: 0.5rem;
+    }
     &-section{
         margin-left: 1rem;
         margin-bottom: 1rem;
@@ -67,6 +72,19 @@ ul{
     }
     &-li{
         list-style: none;
+        margin-left: -3rem;
+        margin-bottom: 0.5rem;
+        // &:hover{
+        //    transform:  scale(0.2);
+        // }
+    }
+    &-title{
+        margin-left: 0.5rem;
+        font-size: 1rem;
+        &:hover{
+            transform:  scale(1);
+
+        }
     }
 }
 
